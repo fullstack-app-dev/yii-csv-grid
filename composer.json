@@ -1,0 +1,37 @@
+{
+    "name": "drcsystems/yii-csv-grid",
+    "description": "Yii2 extension for exporting data to CSV files",
+    "keywords": ["yii2", "csv", "export", "large data"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/drcsystems/yii-csv-grid/issues",
+        "source": "https://github.com/drcsystems/yii-csv-grid"
+    },
+    "authors": [
+        {
+            "name": "Jitendra Yadav",
+            "email": "jitendra@example.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.13"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.27 || ^5.0 || ^6.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "drcsystems\\yiicsvgrid\\": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
